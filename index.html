@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahaf Sameer - DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;KS/&gt;</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certifications" class="nav-link">Certifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hello, I'm</span>
+                        <span class="title-name">Kahaf Sameer</span>
+                        <span class="title-role">DevOps Engineer | Workflow Optimizer</span>
+                    </h1>
+                    <p class="hero-tagline">
+                        Building bridges between development and operations through automation, 
+                        continuous integration, and infrastructure as code.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <span class="terminal-title">kahaf@devops:~$</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">whoami</span>
+                            </div>
+                            <div class="terminal-output">DevOps Engineer</div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">cat skills.txt</span>
+                            </div>
+                            <div class="terminal-output">Docker • CI/CD • Git • Linux • YAML</div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">ls projects/</span>
+                            </div>
+                            <div class="terminal-output">automation/  docker-apps/  pipelines/</div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command typing">git status</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I'm a passionate DevOps engineer on a journey to master the art of streamlining 
+                        development workflows and optimizing infrastructure. With a strong foundation in 
+                        software development, I'm now focused on learning and implementing DevOps practices 
+                        that bridge the gap between development and operations.
+                    </p>
+                    <p class="about-description">
+                        My current learning path includes mastering containerization with Docker, 
+                        implementing CI/CD pipelines, and exploring infrastructure as code. I believe 
+                        in the power of automation to solve complex problems and create efficient, 
+                        scalable systems that enable teams to deliver value faster.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Learning</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <span class="code-title">about_me.py</span>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line">
+                                <span class="code-keyword">class</span> 
+                                <span class="code-class">DevOpsEngineer</span>:
+                            </div>
+                            <div class="code-line">
+                                &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-keyword">def</span> 
+                                <span class="code-function">__init__</span>(<span class="code-param">self</span>):
+                            </div>
+                            <div class="code-line">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.name = <span class="code-string">"Kahaf Sameer"</span>
+                            </div>
+                            <div class="code-line">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.role = <span class="code-string">"DevOps Engineer"</span>
+                            </div>
+                            <div class="code-line">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-param">self</span>.passion = <span class="code-string">"Automation"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3 class="skill-name">Git & GitHub</h3>
+                    <p class="skill-description">Version control, branching strategies, and collaborative development workflows</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <h3 class="skill-name">Docker</h3>
+                    <p class="skill-description">Containerization, Dockerfile optimization, and container orchestration</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60%"></div>
+                        </div>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3 class="skill-name">CI/CD</h3>
+                    <p class="skill-description">Continuous integration and deployment pipelines for automated workflows</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="55%"></div>
+                        </div>
+                        <span class="skill-percentage">55%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-linux"></i>
+                    </div>
+                    <h3 class="skill-name">Linux</h3>
+                    <p class="skill-description">System administration, shell scripting, and command-line proficiency</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <h3 class="skill-name">YAML</h3>
+                    <p class="skill-description">Configuration files, pipeline definitions, and infrastructure as code</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65%"></div>
+                        </div>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3 class="skill-name">Cloud Basics</h3>
+                    <p class="skill-description">AWS fundamentals, cloud services, and infrastructure management</p>
+                    <div class="skill-level">
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="50%"></div>
+                        </div>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Git Automation Scripts</h3>
+                        <p class="project-description">
+                            A collection of shell scripts to automate common Git workflows including 
+                            branch management, commit templates, and repository setup.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Bash</span>
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">Shell Scripting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dockerized Web Application</h3>
+                        <p class="project-description">
+                            A full-stack web application containerized with Docker, including 
+                            multi-stage builds and optimized production images.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Nginx</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CI/CD Pipeline Setup</h3>
+                        <p class="project-description">
+                            Automated CI/CD pipeline using GitHub Actions for testing, building, 
+                            and deploying applications with proper environment management.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">GitHub Actions</span>
+                            <span class="tech-tag">YAML</span>
+                            <span class="tech-tag">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certifications & Learning</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">AWS Cloud Practitioner</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <span class="cert-status">In Progress</span>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Docker Fundamentals</h3>
+                        <p class="cert-issuer">Docker Inc.</p>
+                        <span class="cert-status">Completed</span>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Git & GitHub Essentials</h3>
+                        <p class="cert-issuer">GitHub Learning Lab</p>
+                        <span class="cert-status">Completed</span>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Linux Command Line</h3>
+                        <p class="cert-issuer">Linux Foundation</p>
+                        <span class="cert-status">In Progress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Let's Connect</h3>
+                    <p class="contact-description">
+                        I'm always interested in discussing DevOps practices, automation solutions, 
+                        and new technologies. Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:kahaf.sameer@email.com" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">kahaf.sameer@email.com</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/kahaf-sameer" class="contact-method" target="_blank">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">github.com/kahaf-sameer</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/kahaf-sameer" class="contact-method" target="_blank">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">linkedin.com/in/kahaf-sameer</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-input" required>
+                            <label for="name" class="form-label">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-input" required>
+                            <label for="email" class="form-label">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" class="form-input" required>
+                            <label for="subject" class="form-label">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="5" required></textarea>
+                            <label for="message" class="form-label">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Kahaf Sameer. Built with passion for DevOps.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#projects" class="footer-link">Projects</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
